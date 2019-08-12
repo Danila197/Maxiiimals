@@ -170,28 +170,28 @@ a {
 
 /* header description */
 .header-description-wrap {
-    max-width: 510px;
+    width: 510px;
     height: 500px;
     position: relative;
     margin-top: 60px;
-    margin-left: 22%;
+    margin-left: 19%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .header-text {
-    max-width: 650px;
+    width: 650px;
 }
 
 h1 {
-    max-width: 400px;
+    width: 400px;
     margin: 0;
     font-size: 46px;
 }
 
 .header-text span {
-    max-width: 400px;
+    width: 400px;
     display: block;
     margin-top: 60px;
     font-size: 20px;
@@ -230,9 +230,16 @@ h1 {
     width: 10px;
 }
 
+.arrows img:hover {
+    transform: scale(1.3);
+}
 
 .thumbs a {
     margin-right: 10px;
     font-size: 15px;
     font-weight: 700;
+}
+
+.active {
+    color: #c0c0c0;
 }
