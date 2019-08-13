@@ -1,3 +1,13 @@
+/* Mobile navigation menu */
+function openNav() {
+    document.getElementById("m-menu").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("m-menu").style.width = "0%";
+}
+
+/* Slider for positions */
 var slideIndex = 1;
 var pos = document.getElementsByClassName("position");
 showSlides(slideIndex);
