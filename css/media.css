@@ -1,0 +1,145 @@
+@media (max-width: 1350px) {
+    /*<----- Header ----->*/
+    .header-logo {
+        font-size: 30px;
+    }
+
+    .header-contacts span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1325px) {
+    /*<----- Header ----->*/
+    .header-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 1275px) {
+    /*<----- Header ----->*/
+    .header-description-wrap {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1150px) {
+    /*<----- Header ----->*/
+    .header-description-wrap {
+        margin-left: 3%;
+    }
+}
+
+@media (max-width: 1050px) {
+    /*<----- Header ----->*/
+    .header-description-wrap {
+        margin-left: 3%;
+        height: 540px;
+    }
+
+    h1 {
+        width: 300px;
+        line-height: 60px;
+    }
+
+    .header-text span {
+        width: 300px;
+    }
+
+    .arrows {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    /*<----- Header ----->*/
+    .header-img {
+        width: 800px;
+        top: 83px;
+        right: -10%;
+    }
+
+    .circle-big {
+        width: 600px;
+        height: 600px;
+        top: 80px;
+        right: -110px;
+    }
+
+    .header-description-wrap {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 845px) {
+    /*<----- Header ----->*/
+    .header-description-wrap {
+        margin-left: 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    /*<----- Header ----->*/
+    .circle-big {
+        width: 600px;
+        height: 600px;
+        top: 60px;
+        right: -215px;
+    }
+
+    .header-img {
+        right: -18%;
+    }
+}
+
+@media (max-width: 420px) {
+    /*<----- Header ----->*/
+    .circle-small {
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle-big,
+    .header-img,
+    .header-contacts span {
+        display: none;
+    }
+
+    .nav-wrap {
+        padding: 15px 0;
+        justify-content: space-around;
+    }
+
+    .header-description-wrap {
+        margin-left: 0;
+    }
+
+    .header-text,
+    .header-button,
+    .arrows,
+    .thumbs {
+        width: 420px;
+        text-align: center;
+    }
+
+    h1,
+    .header-text span {
+        width: 100%;
+    }
+
+    .header-text span {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    /*<----- Header ----->*/
+    .header-text,
+    .header-button,
+    .arrows,
+    .thumbs {
+        width: 375px;
+        text-align: center;
+    }
+}
