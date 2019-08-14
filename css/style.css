@@ -64,7 +64,9 @@ body {
 }
 
 .header-nav a,
-.header-text span {
+.header-text span,
+.section-description,
+.about-block span {
     font-family: 'Circe Light', sans-serif;
 }
 
@@ -74,7 +76,9 @@ body {
     font-family: 'Circe Bold', sans-serif;
 }
 
-h1 {
+h1,
+.section-title,
+.about-block h3 {
     font-family: 'Gotham Pro Medium', sans-serif;
 }
 
@@ -115,7 +119,7 @@ header {
     right: 6%;
 }
 
-/* mobile menu navigation  */
+/* mobile navigation menu */
 .m-menu-btn {
     display: none;
     font-size: 40px;
@@ -288,4 +292,47 @@ h1 {
 
 .active {
     color: #c0c0c0;
+}
+
+/*<----- About ----->*/
+.about {
+    padding: 20px 0;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 46px;
+}
+
+.section-description {
+    color: #666666;
+    font-weight: 700;
+}
+
+.about-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-block img {
+    height: 200px;
+}
+
+.about-block h3 {
+    margin-top: -40px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    font-size: 60px;
+    color: #ff591f;
+}
+
+.about-block span {
+    display: block;
+    margin-left: 50px;
+    max-width: 100px;
+    font-weight: 700;
 }
