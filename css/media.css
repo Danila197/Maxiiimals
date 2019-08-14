@@ -122,6 +122,10 @@
         right: 45px;
     }
 
+    .overlay-content {
+        top: 15%;
+    }
+
     .nav-wrap {
         padding: 15px 0;
         justify-content: space-around;
@@ -168,6 +172,10 @@
 
 @media (max-width: 360px) {
     /*<----- Header ----->*/
+    .overlay-content {
+        top: 10%;
+    }
+
     .header-text,
     .header-button,
     .arrows,
