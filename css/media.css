@@ -18,6 +18,11 @@
     .header-description-wrap {
         margin-left: 150px;
     }
+
+    /*<----- Services ----->*/
+    .services-content-wrap {
+        width: 1000px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -48,6 +53,11 @@
     .header-description-wrap {
         margin-left: 65px;
     }
+
+    /*<----- Services ----->*/
+    .services-content-wrap {
+        margin-left: 10px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -55,6 +65,25 @@
     .circle-big {
         width: 520px;
         height: 520px;
+    }
+
+    /*<----- Services ----->*/
+    .services-content-wrap {
+        width: 930px;
+        margin: 20px auto;
+    }
+
+    .services-buttons {
+        width: 240px;
+        flex-direction: column;
+    }
+
+    .services-button {
+        margin-bottom: 20px;
+    }
+
+    .arrows {
+        text-align: center;
     }
 }
 
@@ -112,7 +141,8 @@
         align-items: center;
     }
 
-    .header-description {
+    .header-description,
+    .services-personal-wrap {
         width: 100%;
         text-align: center;
     }
@@ -126,6 +156,17 @@
     .section-title {
         text-align: center;
     }
+
+    /*<----- Services ----->*/
+    .services-content-wrap {
+        width: 650px;
+        margin-top: 40px;
+    }
+
+    .services-content-wrap > img {
+        width: 300px;
+        height: 250px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -137,6 +178,23 @@
 
     .about-block {
         flex-basis: 50%;
+    }
+
+    /*<----- Services ----->*/
+    .services-content-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-content-wrap > img {
+        width: 420px;
+        height: 350px;
+    }
+
+    .services-content {
+        margin-top: 0;
     }
 }
 
@@ -157,6 +215,12 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    /*<----- Services ----->*/
+    .services-content-wrap > img {
+        width: 400px;
+        height: 330px;
     }
 }
 
@@ -185,6 +249,12 @@
     .about-block {
         flex-basis: 95%;
     }
+
+    /*<----- Services ----->*/
+    .services-content-wrap > img {
+        width: 350px;
+        height: 280px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -195,5 +265,11 @@
 
     .header-description-wrap {
         height: 520px;
+    }
+
+    /*<----- Services ----->*/
+    .services-content-wrap > img {
+        width: 300px;
+        height: 230px;
     }
 }
