@@ -220,12 +220,16 @@ a {
 }
 
 /* header description */
-.header-description-wrap {
-    width: 470px;
+.wrap,
+.services-personal-wrap {
+    width: 900px;
+    margin: auto;
+}
+
+.header-wrap {
     height: 500px;
     position: relative;
     margin-top: 60px;
-    margin-left: 275px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -304,12 +308,6 @@ h1 {
     padding-bottom: 30px;
 }
 
-.about-wrap,
-.services-personal-wrap {
-    width: 900px;
-    margin: auto;
-}
-
 .section-title {
     font-size: 46px;
 }
@@ -344,7 +342,8 @@ h1 {
 }
 
 /*<----- Services ----->*/
-.services-thumbs a {
+
+.services-slider a {
     font-size: 16px;
     text-transform: uppercase;
 }

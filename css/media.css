@@ -15,7 +15,7 @@
         text-align: center;
     }
 
-    .header-description-wrap {
+    .section-wrap {
         margin-left: 150px;
     }
 
@@ -50,7 +50,7 @@
         width: 220px;
     }
 
-    .header-description-wrap {
+    .section-wrap {
         margin-left: 65px;
     }
 
@@ -103,20 +103,14 @@
         height: 350px;
     }
 
-    .header-img {
+    .header-img,
+    .header-nav,
+    .header-contacts {
         display: none;
     }
 
     .nav-wrap {
         padding-top: 10px;
-    }
-
-    .header-nav {
-        display: none;
-    }
-
-    .header-contacts {
-        display: none;
     }
 
     .m-menu-btn {
@@ -133,12 +127,15 @@
         top: 15%;
     }
 
-    .header-description-wrap {
+    .wrap {
         width: 100%;
-        height: 400px;
         margin: 30px auto;
         padding: 0 5px;
         align-items: center;
+    }
+
+    .header-wrap {
+        height: 400px;
     }
 
     .header-description,
@@ -148,6 +145,10 @@
     }
 
     /*<----- About ----->*/
+    .about {
+        padding-bottom: 5px;
+    }
+
     .about-wrap {
         width: 100%;
         padding: 0 20px;
@@ -196,18 +197,41 @@
     .services-content {
         margin-top: 0;
     }
-}
 
+    .services-slider {
+        padding-left: 10px;
+    }
+
+    .arrows {
+        order: -1;
+    }
+}
 
 @media (max-width: 425px) {
     /*<----- Header ----->*/
+    header {
+        height: 555px;
+    }
+
     .circle-big {
         width: 230px;
         height: 230px;
     }
 
-    .header-description-wrap {
+    .section-wrap {
         padding: 0 20px;
+    }
+
+    .header-wrap {
+        height: 450px;
+    }
+
+    .header-button {
+        flex-direction: column;
+    }
+
+    .button-order {
+        margin-bottom: 30px;
     }
 
     /*<----- About ----->*/
@@ -227,16 +251,15 @@
 @media (max-width: 375px) {
     /*<----- Header ----->*/
     header {
-        height: 570px;
+        height: 620px;
     }
 
-    .header-description-wrap {
-        height: 450px;
+    .header-wrap {
+        height: 500px;
     }
 
     .header-button {
         width: 90%;
-        height: 150px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -255,16 +278,20 @@
         width: 350px;
         height: 280px;
     }
+
+    .services-button {
+        text-align: center;
+    }
 }
 
 @media (max-width: 320px) {
     /*<----- Header ----->*/
     header {
-        height: 630px;
+        height: 620px;
     }
 
-    .header-description-wrap {
-        height: 520px;
+    .header-wrap {
+        height: 500px;
     }
 
     /*<----- Services ----->*/
