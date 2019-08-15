@@ -29,9 +29,11 @@
             </div>
         </div>
         <!-- /.overlay -->
+
         <div class="circle circle-small"></div>
         <div class="circle circle-big"></div>
         <img class="header-img" src="images/header-img.png" alt="Beautiful woman">
+
         <div class="nav-wrap">
             <a href="#" class="header-logo">MAXIIIMALS</a>
             <nav class="header-nav">
@@ -50,34 +52,39 @@
             <span class="m-menu-btn" onclick="openNav()">&#9776;</span>
         </div>
         <!-- /.nav-wrap -->
+
         <div class="header-description-wrap">
             <div class="header-description">
                 <h1>Let's spend your turnkey holiday!</h1>
                 <span>We will pick up any staff and organize events of any complexity.</span>
             </div>
             <!-- /.header-description -->
+
             <div class="header-button">
                 <a href="#" class="button-order">Order staff</a>
                 <a href="#">Learn more</a>
             </div>
             <!-- /.header-button -->
-            <div class="arrows">
-                <button class="arrow arrow-left" onclick="plusSlides(-1)">
+
+            <div class="header-slider-arrows">
+                <button class="arrow" onclick="headPlusSlides(-1)">
                     <img src="images/arrow-left.png" alt="left arrow">
                 </button>
-                <button class="arrow arrow-right" onclick="plusSlides(+1)">
+                <button class="arrow" onclick="headPlusSlides(+1)">
                     <img src="images/arrow-right.png" alt="right arrow">
                 </button>
             </div>
-            <!-- /.arrows -->
-            <div class="thumbs">
-                <a class="position" href="#">Promoters</a>
-                <a class="position" href="#">Promo models</a>
-                <a class="position" href="#">Representatives</a>
-                <a class="position" href="#">Consultants</a>
-                <a class="position" href="#">Hostess</a>
+            <!-- /.header-slider-arrows -->
+
+            <div class="header-slider">
+                <a class="personal" href="#">Promoters</a>
+                <a class="personal" href="#">Promo models</a>
+                <a class="personal" href="#">Representatives</a>
+                <a class="personal" href="#">Consultants</a>
+                <a class="personal" href="#">Hostess</a>
             </div>
-            <!-- /.thumbs -->
+            <!-- /.header-slider -->
+
         </div><!-- /.header-description-wrap -->
     </header>
 
@@ -90,6 +97,7 @@
                 The quality of our work is noted by foreign colleagues, they value and respect us,
                 we are trusted to implement the most complex projects from the point of view of organization.
             </p>
+
             <div class="about-blocks">
                 <div class="about-block">
                     <img src="images/about/about-img-1.png" alt="City">
@@ -97,27 +105,77 @@
                     <span>years of work</span>
                 </div>
                 <!-- /.about-block -->
+
                 <div class="about-block">
                     <img src="images/about/about-img-2.png" alt="Fireworks">
                     <h3>34</h3>
                     <span>cities of presence</span>
                 </div>
                 <!-- /.about-block -->
+
                 <div class="about-block">
                     <img src="images/about/about-img-3.png" alt="Megaphone">
                     <h3>1011</h3>
                     <span>events held</span>
                 </div>
                 <!-- /.about-block -->
+
                 <div class="about-block">
                     <img src="images/about/about-img-4.png" alt="Calendar">
                     <h3>543</h3>
                     <span>positive promoters</span>
                 </div>
                 <!-- /.about-block -->
-            </div><!-- /.about -->
-        </div><!-- /.container -->
-    </section><!-- /.about -->
+
+            </div><!-- /.about-blocks -->
+        </div><!-- /.about-wrap -->
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="services-personal-wrap">
+            <h2 class="section-title">Our services:</h2>
+            <div class="header-slider services-thumbs">
+                <a class="services-personal" href="#">Promoters</a>
+                <a class="services-personal" href="#">Promo models</a>
+                <a class="services-personal" href="#">Representatives</a>
+                <a class="services-personal" href="#">Consultants</a>
+                <a class="services-personal" href="#">Hostess</a>
+            </div>
+            <!-- /.header-slider services-thumbs -->
+        </div>
+        <!-- /.services-personal-wrap -->
+
+        <div class="services-content-wrap">
+            <img src="images/services-image.png" alt="Girl with a ball">
+            <div class="services-content">
+                <span>Our promoters:</span>
+
+                <ul>
+                    <li>Great stuff</li>
+                    <li>Easy stuff</li>
+                    <li>Difficult stuff</li>
+                </ul>
+
+                <div class="header-button services-buttons">
+                    <a href="#" class="button-order services-button">Order promoters</a>
+                    <a href="#">Learn more</a>
+                </div>
+                <!-- /.header-button header-button services-buttons -->
+
+                <div class="arrows">
+                    <button class="arrow" onclick="servPlusSlides(-1)">
+                        <img src="images/arrow-left.png" alt="left arrow">
+                    </button>
+                    <button class="arrow" onclick="servPlusSlides(+1)">
+                        <img src="images/arrow-right.png" alt="right arrow">
+                    </button>
+                </div>
+                <!-- /.arrows -->
+
+            </div><!-- /.services-content -->
+        </div><!-- /.services-content-wrap -->
+    </section>
 
     <!-- Scripts -->
     <script src="js/main.js"></script>
