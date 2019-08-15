@@ -64,7 +64,7 @@ body {
 }
 
 .header-nav a,
-.header-text span,
+.header-description span,
 .section-description,
 .about-block span {
     font-family: 'Circe Light', sans-serif;
@@ -88,8 +88,7 @@ h1,
 
 /*<----- Header ----->*/
 header {
-    height: 681px;
-    overflow: hidden;
+    height: 650px;
     background-color: #fff9e6;
 }
 
@@ -107,16 +106,16 @@ header {
 }
 
 .circle-big {
-    width: 700px;
-    height: 700px;
-    top: -60px;
-    right: -60px;
+    width: 630px;
+    height: 630px;
+    top: -130px;
+    right: 0;
 }
 
 .header-img {
-    width: 910px;
+    width: 869px;
     position: absolute;
-    right: 6%;
+    right: 9%;
 }
 
 /* mobile navigation menu */
@@ -168,7 +167,7 @@ header {
 /* navigation bar */
 .nav-wrap {
     position: relative;
-    padding: 30px 60px 0 35px;
+    padding: 30px 35px 0 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -187,7 +186,7 @@ a {
 
 .header-nav {
     width: 550px;
-    margin-right: 200px;
+    margin-right: 230px;
     display: flex;
     justify-content: space-between;
 }
@@ -220,31 +219,36 @@ a {
 
 /* header description */
 .header-description-wrap {
-    width: 510px;
+    width: 470px;
     height: 500px;
     position: relative;
     margin-top: 60px;
-    margin-left: 19%;
+    margin-left: 275px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.header-text {
-    width: 650px;
+.header-description {
+    width: 400px;
 }
 
 h1 {
-    width: 400px;
     margin: 0;
     font-size: 46px;
 }
 
-.header-text span {
-    width: 400px;
+.header-description span {
     display: block;
     margin-top: 60px;
     font-size: 20px;
+}
+
+.header-button {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .button-order {
@@ -261,7 +265,6 @@ h1 {
 
 .header-button a:last-child {
     display: inline-block;
-    margin-left: 20px;
     font-size: 14px;
     font-weight: 700;
     color: #ff6633;
@@ -296,10 +299,10 @@ h1 {
 
 /*<----- About ----->*/
 .about {
-    padding: 20px 0;
+    padding-bottom: 30px;
 }
 
-.container {
+.about-wrap {
     width: 900px;
     margin: auto;
 }
@@ -331,8 +334,8 @@ h1 {
 }
 
 .about-block span {
-    display: block;
-    margin-left: 50px;
     max-width: 100px;
+    display: inline-block;
+    margin-left: 50px;
     font-weight: 700;
 }
