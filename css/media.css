@@ -196,6 +196,11 @@
 
     .services-content {
         margin-top: 0;
+        align-items: center;
+    }
+
+    .services-content span {
+        text-align: center;
     }
 
     .services-slider {
