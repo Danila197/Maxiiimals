@@ -405,7 +405,19 @@ h1 {
 }
 
 /*<----- Works ----->*/
+.works {
+    position: relative;
+}
+
+.circle-middle {
+    width: 300px;
+    height: 300px;
+    top: -10%;
+    right: 10%;
+}
+
 .works-blocks {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -414,11 +426,13 @@ h1 {
     width: 420px;
     height: 450px;
     border-radius: 10px;
+    background-color: white;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
 }
 
 .works-block img {
     max-width: 100%;
+    /*border-top-right-radius: 10px;*/
 }
 
 .works-block-wrap {
