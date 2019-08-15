@@ -231,7 +231,7 @@
         height: 450px;
     }
 
-    .header-button {
+    .buttons {
         flex-direction: column;
     }
 
@@ -263,7 +263,7 @@
         height: 500px;
     }
 
-    .header-button {
+    .buttons {
         width: 90%;
         flex-wrap: wrap;
         justify-content: center;

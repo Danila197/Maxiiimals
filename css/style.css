@@ -67,13 +67,15 @@ body {
 .header-description span,
 .section-description,
 .about-block span,
-.services-content li {
+.services-content li,
+.works-block-text {
     font-family: 'Circe Light', sans-serif;
 }
 
 .header-contacts a,
-.header-button,
-.header-slider a {
+.buttons,
+.header-slider a,
+.works-block-title {
     font-family: 'Circe Bold', sans-serif;
 }
 
@@ -210,7 +212,7 @@ a {
 }
 
 .header-contacts a::after,
-.header-button a:last-child::after {
+.buttons a:last-child::after {
     content: '';
     display: block;
     width: 100%;
@@ -250,7 +252,7 @@ h1 {
     font-size: 20px;
 }
 
-.header-button {
+.buttons {
     width: 350px;
     display: flex;
     justify-content: space-between;
@@ -269,7 +271,7 @@ h1 {
     text-transform: uppercase;
 }
 
-.header-button a:last-child {
+.buttons a:last-child {
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
@@ -342,16 +344,14 @@ h1 {
 }
 
 /*<----- Services ----->*/
-
 .services-slider a {
     font-size: 16px;
     text-transform: uppercase;
 }
 
 .services-content-wrap {
-    width: 1090px;
-    margin-top: 20px;
-    margin-left: 80px;
+    width: 1000px;
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -402,4 +402,44 @@ h1 {
 
 .services-button {
     padding: 20px 50px;
+}
+
+/*<----- Works ----->*/
+.works-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works-block {
+    width: 420px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+}
+
+.works-block img {
+    max-width: 100%;
+}
+
+.works-block-wrap {
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works-block span {
+    display: block;
+    width: 350px;
+}
+
+.works-block-title {
+    font-size: 18px;
+}
+
+.works-block-text {
+    font-size: 16px;
+    color: #999999;
 }
