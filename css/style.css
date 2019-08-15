@@ -422,7 +422,7 @@ h1 {
 }
 
 .works-block-wrap {
-    height: 200px;
+    height: 180px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -432,7 +432,7 @@ h1 {
 
 .works-block span {
     display: block;
-    width: 350px;
+    max-width: 90%;
 }
 
 .works-block-title {
@@ -442,4 +442,8 @@ h1 {
 .works-block-text {
     font-size: 16px;
     color: #999999;
+}
+
+.works-block-button {
+    margin-top: 20px;
 }
