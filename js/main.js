@@ -7,22 +7,42 @@ function closeNav() {
     document.getElementById("m-menu").style.width = "0%";
 }
 
-/* Slider for positions */
-var slideIndex = 1;
-var pos = document.getElementsByClassName("position");
-showSlides(slideIndex);
+/* Header slider for personal */
+var headSlideIndex = 1;
+var per = document.getElementsByClassName("personal");
+headShowSlides(headSlideIndex);
 
-function plusSlides(n) {
-    var newIndex = slideIndex + n;
-    var isOutOfRange = newIndex > pos.length || newIndex < 1;
+function headPlusSlides(n) {
+    var headNewIndex = headSlideIndex + n;
+    var isOutOfRange = headNewIndex > per.length || headNewIndex < 1;
     if (isOutOfRange) return;
-    slideIndex = newIndex;
-    showSlides(newIndex);
+    headSlideIndex = headNewIndex;
+    headShowSlides(headNewIndex);
 }
 
-function showSlides(n) {
-    for (var i = 0; i < pos.length; i++) {
-        pos[i].className = pos[i].className.replace(" active", "");
+function headShowSlides(n) {
+    for (var i = 0; i < per.length; i++) {
+        per[i].className = per[i].className.replace(" active", "");
     }
-    pos[slideIndex-1].className += " active";
+    per[headSlideIndex-1].className += " active";
+}
+
+/* Services slider for personal */
+var servSlideIndex = 1;
+var servPer = document.getElementsByClassName("services-personal");
+servShowSlides(servSlideIndex);
+
+function servPlusSlides(n) {
+    var servNewIndex = servSlideIndex + n;
+    var isOutOfRange = servNewIndex > servPer.length || servNewIndex < 1;
+    if (isOutOfRange) return;
+    servSlideIndex = servNewIndex;
+    servShowSlides(servNewIndex);
+}
+
+function servShowSlides(n) {
+    for (var i = 0; i < servPer.length; i++) {
+        servPer[i].className = servPer[i].className.replace(" active", "");
+    }
+    servPer[servSlideIndex-1].className += " active";
 }
