@@ -88,8 +88,8 @@
         left: 1%;
     }
 
-    /*<----- Questions ----->*/
-    .questions-circle-small {
+    /*<----- Сontacts ----->*/
+    .contacts-circle-small {
         left: -5%;
     }
 }
@@ -130,8 +130,8 @@
         top: 11%;
     }
 
-    /*<----- Questions ----->*/
-    .questions-circle-small {
+    /*<----- Сontacts ----->*/
+    .contacts-circle-small {
         left: -4%;
     }
 }
@@ -264,37 +264,36 @@
         flex-basis: 35%;
     }
 
-    /*<----- Benefits ----->*/
-    .questions-circle-small {
+    /*<----- Сontacts ----->*/
+    .contacts-circle-small {
         top: -5%;
         left: 3%;
     }
 
-    /*<----- Questions ----->*/
-    .wrap-questions {
+    .wrap-contacts {
         flex-direction: column;
     }
 
-    .questions-contacts {
+    .contacts-data {
         align-items: center;
         text-align: center;
     }
 
-    .questions-contacts h2 {
+    .contacts-data h2 {
         margin: 0;
     }
 
-    .questions-form {
+    .contacts-form {
         height: 400px;
         margin-top: 30px;
         text-align: center;
     }
 
-    .questions-button-wrap {
+    .contacts-button-wrap {
         text-align: center;
     }
 
-    .questions-bg-img {
+    .contacts-bg-img {
         width: 190px;
         top: 20%;
         left: 70%;
@@ -375,11 +374,18 @@
         margin-top: 80px;
     }
 
-    /*<----- Questions ----->*/
-    .questions-bg-img {
+    /*<----- Сontacts ----->*/
+    .contacts-bg-img {
         width: 130px;
         top: 26%;
         left: 70%;
+    }
+
+    /*<----- Сontacts ----->*/
+    .contacts-circle-small {
+        width: 40px;
+        height: 40px;
+        left: 1%;
     }
 }
 
@@ -460,12 +466,19 @@
         flex-basis: 100%;
     }
 
-    /*<----- Questions ----->*/
-    .questions-contacts {
+    /*<----- Сontacts ----->*/
+    .contacts-circle-small {
+        width: 50px;
+        height: 50px;
+        top: -7%;
+        left: 7%;
+    }
+
+    .contacts-data {
         width: 90%;
     }
 
-    .questions-bg-img {
+    .contacts-bg-img {
         width: 120px;
         top: 36%;
     }
@@ -516,13 +529,13 @@
         top: -13%;
     }
 
-    /*<----- Questions ----->*/
-    .questions-contacts,
-    .questions-form{
+    /*<----- Сontacts ----->*/
+    .contacts-data,
+    .contacts-form {
         width: 90%;
     }
 
-    .questions-bg-img {
+    .contacts-bg-img {
         width: 100px;
         top: 38%;
         left: 71%;
@@ -550,18 +563,18 @@
         height: 260px;
     }
 
-    /*<----- Questions ----->*/
-    .questions-circle-small {
+    /*<----- Сontacts ----->*/
+    .contacts-circle-small {
         top: -7%;
     }
 
-    .questions-button {
+    .contacts-button {
         width: 100%;
         padding: 10px 65px;
         margin-bottom: 0;
     }
 
-    .questions-bg-img {
+    .contacts-bg-img {
         width: 80px;
         top: 40%;
         left: 72%;
