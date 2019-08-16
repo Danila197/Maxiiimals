@@ -574,6 +574,11 @@ h1 {
     display: block;
 }
 
+.questions-content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .questions-contacts {
     width: 480px;
     height: 400px;
