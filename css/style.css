@@ -229,6 +229,7 @@ a {
 .services-personal-wrap {
     width: 900px;
     margin: auto;
+    margin-top: 90px;
 }
 
 .header-wrap {
@@ -529,4 +530,21 @@ h1 {
     margin-top: 20px;
     font-size: 17px;
     font-weight: 700;
+}
+
+/*<----- Partners ----->*/
+.partners-blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners-block {
+    width: 150px;
+}
+
+.partners-block img {
+    max-width: 100%;
+    opacity: 0.4;
+    filter: grayscale(100%);
 }

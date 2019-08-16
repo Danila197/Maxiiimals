@@ -198,6 +198,10 @@
     }
 
     /*<----- Services ----->*/
+    .services-personal-wrap {
+        margin-top: 0;
+    }
+
     .services-content-wrap {
         width: 650px;
         margin-top: 40px;
@@ -237,6 +241,17 @@
     .models-block {
         flex-basis: 35%;
         margin-bottom: 20px;
+    }
+
+    /*<----- Partners ----->*/
+    .partners-blocks {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .partners-block {
+        flex-basis: 35%;
     }
 }
 
@@ -308,6 +323,11 @@
     .models-blocks {
         height: 620px;
     }
+
+    /*<----- Partners ----->*/
+    .wrap-partners {
+        margin-top: 80px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -371,7 +391,19 @@
     }
 
     /*<----- Models ----->*/
+    .models-blocks {
+        height: 100%;
+    }
+
     .models-block {
+        flex-basis: 100%;
+    }
+
+    /*<----- Partners ----->*/
+    .wrap-partners {
+        margin-top: 0;
+    }
+    .partners-block {
         flex-basis: 100%;
     }
 }
