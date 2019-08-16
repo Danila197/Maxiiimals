@@ -515,7 +515,6 @@ h1 {
 
 .models-block {
     width: 200px;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -527,6 +526,7 @@ h1 {
 }
 
 .models-block span {
+    margin-top: 20px;
     font-size: 17px;
     font-weight: 700;
 }

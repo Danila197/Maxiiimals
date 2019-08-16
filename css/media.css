@@ -227,6 +227,17 @@
     .works-block span {
         text-align: center;
     }
+
+    /*<----- Models ----->*/
+    .models-blocks {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .models-block {
+        flex-basis: 35%;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -292,6 +303,11 @@
     .benefits-img {
         top: 18%;
     }
+
+    /*<----- Models ----->*/
+    .models-blocks {
+        height: 620px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -352,6 +368,11 @@
 
     .benefits-img {
         display: none;
+    }
+
+    /*<----- Models ----->*/
+    .models-block {
+        flex-basis: 100%;
     }
 }
 
