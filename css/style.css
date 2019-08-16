@@ -69,7 +69,8 @@ body {
 .about-block span,
 .services-content li,
 .works-block-text,
-.wrap-benefits > span {
+.wrap-benefits > span,
+.models-block span {
     font-family: 'Circe Light', sans-serif;
 }
 
@@ -504,4 +505,28 @@ h1 {
     position: absolute;
     top: -15%;
     right: 0;
+}
+
+/*<----- Models ----->*/
+.models-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.models-block {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.models-block img {
+    max-width: 100%;
+}
+
+.models-block span {
+    font-size: 17px;
+    font-weight: 700;
 }
