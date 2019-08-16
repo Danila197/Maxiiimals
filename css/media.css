@@ -27,6 +27,16 @@
     .services-content-wrap {
         width: 1000px;
     }
+
+    /*<----- Benefits ----->*/
+    .benefits-circle-small {
+        left: 2%;
+    }
+
+    .benefits-img {
+        width: 35%;
+        top: 0;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -69,6 +79,14 @@
     .services-content-wrap {
         margin-left: 10px;
     }
+
+    /*<----- Benefits ----->*/
+    .benefits-circle-small {
+        width: 60px;
+        height: 60px;
+        top: -11%;
+        left: 1%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -95,6 +113,16 @@
 
     .arrows {
         text-align: center;
+    }
+
+    /*<----- Benefits ----->*/
+    .wrap-benefits {
+        text-align: center;
+    }
+
+    .benefits-img {
+        width: 21%;
+        top: 11%;
     }
 }
 
@@ -247,6 +275,23 @@
         top: 2%;
         right: 0;
     }
+
+    /*<----- Benefits ----->*/
+    .benefits-circle-small {
+        top: -13%;
+    }
+
+    .benefits-graph-wrap {
+        padding: 0 5px;
+    }
+
+    .benefits-graph-wrap img {
+        max-width: 100%;
+    }
+
+    .benefits-img {
+        top: 18%;
+    }
 }
 
 @media (max-width: 425px) {
@@ -299,6 +344,15 @@
     .works-block {
         width: 90%;
     }
+
+    /*<----- Benefits ----->*/
+    .benefits-circle-small {
+        top: -12%;
+    }
+
+    .benefits-img {
+        display: none;
+    }
 }
 
 @media (max-width: 375px) {
@@ -339,6 +393,11 @@
     /*<----- Works ----->*/
     .works-block-wrap {
         height: 230px;
+    }
+
+    /*<----- Benefits ----->*/
+    .benefits-circle-small {
+        top: -13%;
     }
 }
 
