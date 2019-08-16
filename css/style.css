@@ -68,14 +68,16 @@ body {
 .section-description,
 .about-block span,
 .services-content li,
-.works-block-text {
+.works-block-text,
+.wrap-benefits > span {
     font-family: 'Circe Light', sans-serif;
 }
 
 .header-contacts a,
 .buttons,
 .header-slider a,
-.works-block-title {
+.works-block-title,
+.benefits-graph-wrap span:first-child {
     font-family: 'Circe Bold', sans-serif;
 }
 
@@ -432,7 +434,7 @@ h1 {
 
 .works-block img {
     max-width: 100%;
-    /*border-top-right-radius: 10px;*/
+    border-radius: 10px;
 }
 
 .works-block-wrap {
@@ -460,4 +462,46 @@ h1 {
 
 .works-block-button {
     margin-top: 20px;
+}
+
+/*<----- Benefits ----->*/
+.benefits {
+    margin-top: 80px;
+    position: relative;
+}
+
+.benefits-circle-small {
+    width: 100px;
+    height: 100px;
+    top: -15%;
+    left: 5%;
+}
+
+.wrap-benefits > span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #666666;
+}
+
+.benefits-graph-wrap span {
+    display: block;
+}
+
+.benefits-graph-wrap span:nth-child(1) {
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+.benefits-graph-wrap span:nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.benefits-img {
+    width: 500px;
+    position: absolute;
+    top: -15%;
+    right: 0;
 }
