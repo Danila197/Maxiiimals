@@ -15,10 +15,6 @@
         text-align: center;
     }
 
-    .section-wrap {
-        margin-left: 150px;
-    }
-
     /*<----- Services ----->*/
     .circle-middle {
         right: 3%;
@@ -35,7 +31,7 @@
 
     .benefits-img {
         width: 35%;
-        top: 0;
+        top: 10%;
     }
 }
 
@@ -64,10 +60,6 @@
         width: 220px;
     }
 
-    .section-wrap {
-        margin-left: 65px;
-    }
-
     /*<----- Services ----->*/
     .circle-middle {
         width: 200px;
@@ -82,7 +74,7 @@
 
     /*<----- Works ----->*/
     .circle-middle {
-        top: 10%;
+        top: 15%;
     }
 
     /*<----- Benefits ----->*/
@@ -254,6 +246,10 @@
         left: 5%;
     }
 
+    .benefits-img {
+        top: 17%;
+    }
+
     /*<----- Models ----->*/
     .models-blocks {
         flex-wrap: wrap;
@@ -382,7 +378,7 @@
     }
 
     .benefits-img {
-        top: 18%;
+        top: 25%;
     }
 
     /*<----- Models ----->*/
@@ -566,6 +562,10 @@
     /*<----- Benefits ----->*/
     .benefits-circle-small {
         top: -8%;
+    }
+
+    .circle-middle {
+        top: 8%;
     }
 
     /*<----- Сontacts ----->*/
