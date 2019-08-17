@@ -80,11 +80,16 @@
         margin-left: 10px;
     }
 
+    /*<----- Works ----->*/
+    .circle-middle {
+        top: 10%;
+    }
+
     /*<----- Benefits ----->*/
     .benefits-circle-small {
         width: 60px;
         height: 60px;
-        top: -11%;
+        top: -3%;
         left: 1%;
     }
 
@@ -224,6 +229,7 @@
 
     /*<----- Works ----->*/
     .circle-middle {
+        top: 2%;
         right: 8%;
     }
 
@@ -240,6 +246,12 @@
 
     .works-block span {
         text-align: center;
+    }
+
+    /*<----- Benefits ----->*/
+    .benefits-circle-small {
+        top: -7%;
+        left: 5%;
     }
 
     /*<----- Models ----->*/
@@ -298,6 +310,15 @@
         top: 20%;
         left: 70%;
     }
+
+    /*<----- Footer ----->*/
+    .footer-wrap {
+        width: 95%;
+    }
+
+    .footer-nav a {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -343,13 +364,13 @@
 
     /*<----- Works ----->*/
     .circle-middle {
-        top: 2%;
+        top: 5%;
         right: 0;
     }
 
     /*<----- Benefits ----->*/
     .benefits-circle-small {
-        top: -13%;
+        top: -8%;
     }
 
     .benefits-graph-wrap {
@@ -386,6 +407,11 @@
         width: 40px;
         height: 40px;
         left: 1%;
+    }
+
+    /*<----- Footer ----->*/
+    .footer-contacts {
+        display: none;
     }
 }
 
@@ -433,7 +459,7 @@
     .circle-middle {
         width: 120px;
         height: 120px;
-        top: 4%;
+        top: 7%;
     }
 
     .works-block {
@@ -442,7 +468,7 @@
 
     /*<----- Benefits ----->*/
     .benefits-circle-small {
-        top: -12%;
+        top: -7%;
     }
 
     .benefits-img {
@@ -481,6 +507,19 @@
     .contacts-bg-img {
         width: 120px;
         top: 36%;
+    }
+
+    /*<----- Footer ----->*/
+    .footer-nav a {
+        font-size: 10px;
+    }
+
+    .footer-contacts-block {
+        align-items: center;
+    }
+
+    .footer-logo {
+        font-size: 24px;
     }
 }
 
@@ -526,7 +565,7 @@
 
     /*<----- Benefits ----->*/
     .benefits-circle-small {
-        top: -13%;
+        top: -8%;
     }
 
     /*<----- Сontacts ----->*/
@@ -539,6 +578,23 @@
         width: 100px;
         top: 38%;
         left: 71%;
+    }
+
+    /*<----- Footer ----->*/
+    .footer-nav {
+        display: none;
+    }
+
+    .footer-contacts-block {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        font-size: 34px;
+    }
+
+    .footer-social-blocks {
+        margin-top: 20px;
     }
 }
 
@@ -559,6 +615,10 @@
     }
 
     /*<----- Works ----->*/
+    .circle-middle {
+        top: 8%;
+    }
+
     .works-block-wrap {
         height: 260px;
     }
@@ -578,5 +638,10 @@
         width: 80px;
         top: 40%;
         left: 72%;
+    }
+
+    /*<----- Footer ----->*/
+    .footer-social-blocks {
+        width: 280px;
     }
 }
